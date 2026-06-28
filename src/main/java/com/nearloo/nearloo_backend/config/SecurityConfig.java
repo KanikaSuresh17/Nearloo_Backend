@@ -51,8 +51,7 @@ public class SecurityConfig {
 
         config.setAllowedOrigins(List.of(
                 "http://localhost:5173",
-                "http://127.0.0.1:5500",
-                "https://nearloo.vercel.app"));
+                "https://nearloo-frontend.vercel.app"));
 
         config.setAllowedMethods(List.of(
                 "GET", "POST", "PUT", "DELETE", "OPTIONS"));
